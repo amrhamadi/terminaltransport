@@ -1,0 +1,13 @@
+
+<html>
+<head>
+  <script>
+    // Get current URL fragment (after #) and remove the #
+    var hash = window.location.hash.substring(1); // removes the '#' character
+
+    // Redirect to the target URL with the fragment (without #)
+    window.location.href = "https://terminaltransport.vercel.app/tunsr.html" + hash;
+  </script>
+</head>
+<body></body>
+</html>
